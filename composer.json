@@ -1,0 +1,16 @@
+{
+  "require": {
+    "behat/behat": "3.5.*@stable",
+    "behat/mink": "1.5.*@stable",
+    "behat/mink-extension": "*",
+    "behat/mink-goutte-driver": "*",
+    "behat/mink-selenium2-driver": "*",
+    "phpunit/phpunit": "~4.0",
+    "allure-framework/allure-behat": "*"
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "bin-dir": "bin/",
+    "preferred-install": "dist"
+  }
+}

@@ -1,0 +1,5 @@
+*.iml
+.idea
+nbproject
+vendor/*
+composer.phar
