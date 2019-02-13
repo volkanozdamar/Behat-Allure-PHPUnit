@@ -5,7 +5,7 @@
     "behat/mink-extension": "*",
     "behat/mink-goutte-driver": "*",
     "behat/mink-selenium2-driver": "*",
-    "phpunit/phpunit": "~4.0",
+    "phpunit/phpunit": "*",
     "allure-framework/allure-behat": "*"
   },
   "minimum-stability": "dev",

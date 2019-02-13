@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /*
  * This file is part of PHPUnit.
  *
@@ -7,10 +7,11 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+namespace PHPUnit\Framework;
 
 /**
- * @since Class available since Release 4.0.0
+ * @internal This class is not covered by the backward compatibility promise for PHPUnit
  */
-class PHPUnit_Framework_CodeCoverageException extends PHPUnit_Framework_Exception
+class CodeCoverageException extends Exception
 {
 }

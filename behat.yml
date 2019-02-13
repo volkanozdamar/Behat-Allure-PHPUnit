@@ -5,6 +5,10 @@ default:
       output_path: %paths.base%/build/allure
   extensions:
     Allure\Behat\AllureFormatterExtension:
+      severity_key: "severity:"
+      ignored_tags: "tag_ignore"
+      issue_tag_prefix: "JIRA:"
+      test_id_tag_prefix: "BUG:"
     Behat\MinkExtension:
       files_path: ./data/
       base_url: http://volkanozdamar.com
@@ -14,22 +18,6 @@ default:
       selenium2:
         wd_host: http://127.0.0.1:4444/wd/hub
         capabilities: {browserVersion: ANY, version: ANY}
-#default:
-#  formatters:
-#    pretty: true
-#    allure:
-#      output_path: %paths.base%/build/allure
-#  extensions:
-#    Allure\Behat\AllureFormatterExtension:
-#      severity_key: "severity:"
-#      ignored_tags: "tag_ignore"
-#      issue_tag_prefix: "JIRA:"
-#      test_id_tag_prefix: "BUG:"
-#    Behat\MinkExtension:
-#      base_url:  'http://volkanozdamar.com'
-#      sessions:
-#        default:
-#          goutte: ~
 
 
 
